@@ -119,6 +119,32 @@ main{
         }
     }
 }
+//contactPages
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5rem;
+
+    div{
+        font-size: 1.5rem;
+        border: 3px #fff solid;
+        padding: 1.5rem 1rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover{
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-color($secondary-color);
+            span{
+                color: set-text-color($secondary-color);
+            }
+        }
+    }
+}
+
 //buttonStyles
 .btn{
     display: block;
@@ -132,14 +158,12 @@ main{
 }
 .btn-dark{
     @extend .btn;
+    border: 1px $secondary-color solid;
     background: darken($primary-color, 50);
     color: #fff;
+    @include easeOut;
 }
-.btn-light{
-    @extend .btn;
-    background: lighten($primary-color, 50);
-    color: #333;
-}
+
 #main-footer{
     text-align: center;
     padding:1rem;
