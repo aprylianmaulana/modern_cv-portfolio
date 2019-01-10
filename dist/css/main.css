@@ -167,7 +167,8 @@ main {
     grid-area: bio;
     font-size: 1.2rem; }
   .about-info .job-1 {
-    grid-area: job1; }
+    grid-area: job1;
+    text-decoration: none; }
   .about-info .job-2 {
     grid-area: job2; }
   .about-info .job-3 {
