@@ -90,10 +90,16 @@ main{
         grid-area: job1;
         text-decoration: none;
         .softskills{
+            h6{
+                margin: 0;
+            }
             list-style: none;
             padding-left: 0.5vh;
         }
         .tech-skills{
+            h6{
+                margin: 0;
+            }
             list-style: none;
             padding-left: 0.5vh;
         }
@@ -101,13 +107,105 @@ main{
     }
     .job-2{
         grid-area: job2;
+        .edu1{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .edu2{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .edu3{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .cw-1{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .cw-2{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
     }
     .job-3{
         grid-area: job3;
+        
+        .cw-3{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .cw-4{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .cw-5{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .cw-6{
+            p{
+                margin: 0;
+            }
+            h6{
+                margin: 0;
+            }
+            list-style: none;
+            padding-left: 0.5vh;
+        }
     }
     
     .job{
-        background: lighten($primary-color,5);
+        background:lighten($primary-color,5);
+        border-radius: 4%;
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
     }
