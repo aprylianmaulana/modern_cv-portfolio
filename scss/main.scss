@@ -89,6 +89,15 @@ main{
     .job-1{
         grid-area: job1;
         text-decoration: none;
+        .softskills{
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        .tech-skills{
+            list-style: none;
+            padding-left: 0.5vh;
+        }
+        
     }
     .job-2{
         grid-area: job2;

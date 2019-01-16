@@ -52,12 +52,11 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .potrait {
-      width: 260px;
-      height: 260px;
-      background: url("../img/Profile.jpg");
+      width: 170px;
+      height: 170px;
+      background: url("../img/Profile2.jpg");
       background-position: center;
-      background-position-y: -4.5rem;
-      background-position-x: -27px;
+      background-attachment: none;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -169,6 +168,12 @@ main {
   .about-info .job-1 {
     grid-area: job1;
     text-decoration: none; }
+    .about-info .job-1 .softskills {
+      list-style: none;
+      padding-left: 0.5vh; }
+    .about-info .job-1 .tech-skills {
+      list-style: none;
+      padding-left: 0.5vh; }
   .about-info .job-2 {
     grid-area: job2; }
   .about-info .job-3 {
