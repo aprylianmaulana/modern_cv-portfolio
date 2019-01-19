@@ -249,7 +249,7 @@ main {
         margin: 0; }
   .about-info .job {
     background: #515151;
-    border-radius: 4%;
+    border-radius: 2%;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
@@ -263,7 +263,10 @@ main {
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
+      border-radius: 3%;
       transition: all 0.5s ease-out; }
+  .projects .text-desc {
+    min-block-size: 5rem; }
 
 .boxes {
   display: flex;
